@@ -1,0 +1,145 @@
+.container {
+  /*position: sticky;*/
+  /*top: 0;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 50px;
+}
+
+.logo {
+  padding: 5px 0;
+}
+
+.header__inner_left {
+  display: flex;
+  gap: 80px;
+}
+
+.header__logo {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.logo__tor {
+  color: #EF4934;
+  font-size: 3.9rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.logo__text_wrapper {
+  display: block;
+}
+
+.logo__assembly {
+  color: var(--textColor);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.logo__oronto {
+  font-size: 2.5rem;
+  color: var(--color-oronto);
+  margin-top: -1rem;
+  font-family: 'Arvo', serif;
+  font-weight: 1000;
+}
+
+.burger {
+  display: none;
+  font-size: 3rem;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: var(--textColor);
+}
+
+.burger:hover {
+  color: var(--secondaryButtonColor);
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+}
+
+.navList {
+  font-size: 25px;
+  display: flex;
+  gap: 45px;
+  color: var(--textColor);
+}
+
+.navList a {
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.activeLink {
+  color: var(--secondaryButtonColor);
+}
+
+.inactiveLink {
+  color: var(--textColor);
+}
+
+.navList a:hover {
+  color: var(--secondaryButtonColor);
+}
+
+button {
+  color: var(--textColor);
+}
+
+@media (max-width: 480px) {
+  .logo {
+    padding: 2px 0;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+  }
+
+  .header__inner_left {
+    display: flex;
+    gap: 50px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    background-color: var(--mainbg);
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .nav.open {
+    display: block;
+  }
+
+  .navList {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+    font-weight: 700;
+    color: #444444;
+  }
+}

@@ -1,0 +1,60 @@
+.container {
+    color: #ffffff;
+    height: var(--footer-height);
+    padding: 10px 0 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.socialList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.socialItem {
+    display: inline-block;
+}
+
+.socialLink {
+    color: var(--textColor);
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+    color: #ff6f61;
+}
+
+.copyright {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+
+
+@media (max-width: 480px) {
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
