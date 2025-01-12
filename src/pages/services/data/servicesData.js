@@ -1,17 +1,17 @@
-import furniture from '../images/sofa.png';
-import lighting from '../images/lighting.jpg';
-import lamps from '../images/changing lightbulb.jpg';
-import halloween from '../images/halloween.jpg';
-import sw from '../images/modern_workspace.jpg';
-import chair from '../images/Sofa and office chair .png';
-import beds_img from '../images/IMG_20240902_103843.jpg';
-import repair from '../images/furniture_repair.jpg';
+import sofa_assembly from '../images/sofa_assembly.png';
+import lighting_installation from '../images/lighting_installation.jpg';
+import lightbulb_replacement from '../images/lightbulb_replacement.jpg';
+import halloween_preparation from '../images/halloween_preparation.jpg';
+import furniture_design from '../images/furniture_design.jpg';
+import chair_assembly from '../images/chair_assembly.png';
+import bed_assembly from '../images/bed_assembly.jpg';
+import furniture_repair from '../images/furniture_repair.webp';
 
 export const services = [
     {
         id: 1,
         title: 'Assembly of furniture',
-        imgSrc: furniture,
+        imgSrc: sofa_assembly,
         price: 100,
         lowPrice: 20,
         highPrice: 200,
@@ -21,7 +21,7 @@ export const services = [
     {
         id: 2,
         title: 'Assembly of beds of various complexities',
-        imgSrc: beds_img,
+        imgSrc: bed_assembly,
         price: 200,
         lowPrice: 180,
         highPrice: 250,
@@ -31,7 +31,7 @@ export const services = [
     {
         id: 3,
         title: 'Office chair and bar stool assembly',
-        imgSrc: chair,
+        imgSrc: chair_assembly,
         price: 90,
         lowPrice: 15,
         highPrice: 120,
@@ -41,7 +41,7 @@ export const services = [
     {
         id: 4,
         title: 'Changing lamps',
-        imgSrc: lamps,
+        imgSrc: lightbulb_replacement,
         price: 50,
         lowPrice: 20,
         highPrice: 60,
@@ -51,7 +51,7 @@ export const services = [
     {
         id: 5,
         title: 'Installing lighting and Christmas lights',
-        imgSrc: lighting,
+        imgSrc: lighting_installation,
         price: 80,
         lowPrice: 30,
         highPrice: 170,
@@ -61,7 +61,7 @@ export const services = [
     {
         id: 6,
         title: 'Preparation for Halloween',
-        imgSrc: halloween,
+        imgSrc: halloween_preparation,
         price: 120,
         lowPrice: 80,
         highPrice: 200,
@@ -71,7 +71,7 @@ export const services = [
     {
         id: 7,
         title: 'Furniture design',
-        imgSrc: sw,
+        imgSrc: furniture_design,
         price: 250,
         lowPrice: 200,
         highPrice: 2000,
@@ -81,7 +81,7 @@ export const services = [
     {
         id: 8,
         title: 'Furniture repair and restoration',
-        imgSrc: repair,
+        imgSrc: furniture_repair,
         price: 150,
         lowPrice: 50,
         highPrice: 500,
